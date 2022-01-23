@@ -14,6 +14,7 @@ import java.util.Scanner;
 
 public class MainActivity extends AppCompatActivity {
     NavigationView navigationView;
+    boolean b;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
