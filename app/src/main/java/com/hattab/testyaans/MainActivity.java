@@ -8,13 +8,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Scroller;
 
-import com.google.android.material.navigation.NavigationView;
-
 import java.util.Scanner;
 
 public class MainActivity extends AppCompatActivity {
-    NavigationView navigationView;
-    boolean b;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,5 +20,4 @@ public class MainActivity extends AppCompatActivity {
         EditText e;
         Scroller s;
     }
-
 }
